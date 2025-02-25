@@ -5,4 +5,27 @@
 }
 .top-content{
     padding: 14px 0px;
+    display: flex;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+.top-content p{
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.top-content1{
+    color: #0a808c;
+    text-transform: uppercase;
+    
+}
+.top-content a{
+    text-decoration: none;
+    color: black;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.icons i{
+    font-size: 18px;
 }
