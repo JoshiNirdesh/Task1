@@ -29,3 +29,32 @@
 .icons i{
     font-size: 18px;
 }
+.navbar{
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-between;
+}
+.logo img{
+    width:120px;
+    height: 120px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.nav-list li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.nav-button{
+    margin-top: -17px;
+}
+.nav-button button{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    background-color: #0a808c;
+    border: #0a808c;
+    color: white;
+}
