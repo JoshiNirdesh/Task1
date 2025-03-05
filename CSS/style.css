@@ -197,7 +197,7 @@
 
 }
 .third-section .col-md-6{
-    padding: 90px 0px;
+    padding: 50px 0px;
 }
 .third-link{
     text-decoration: none;
@@ -578,3 +578,285 @@ font-size: 17px;
 .l-text{
     color: #0a808c;
 }
+
+
+@media (max-width: 1200px) {
+    .nav-list {
+        gap: 30px;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+    .menu-toggle{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .top-content {
+        margin-right: 0;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f2f2f2;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        z-index: 1000;
+    }
+    .nav-button{
+        display: none;
+    }
+
+    .nav-list li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .menu-toggle:checked ~ .nav-list {
+        display: flex;
+    }
+
+    .first-section-image img {
+        height: 600px;
+    }
+    .content-section{
+        font-size: 14px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .content .content3{
+        font-size: 12px;
+    }   
+
+    .image-first-text {
+        font-size: 48px;
+    }
+    .image-cover{
+        height: 600px;
+    }
+    .first-section-image .image-content{
+        top: 30%;
+        right: 15%;
+    }
+    .image-first-text{
+        font-size: 40px;
+    }
+
+    .third-section, .third-content{
+        font-size: 12px;
+    }
+   .col-md-6 .third-img{
+       width: 300px;
+       height: 500px;
+       margin-top: 10%;
+   }
+   .third-link{
+       font-size: 16px;
+   }
+   .third-heading{
+       font-size: 40px;}
+       .third-first-par{
+           font-size: 16px;
+       }
+         .third-second-par{
+              font-size: 14px;
+         }
+            .third-icon-4 ,.third-icon{
+                display: none;
+            }
+            .f-icon{
+                width: 30px;
+                height: 30px;
+            }
+            .f-title{
+                font-size: 14px;
+            }
+            .f-text{
+                font-size: 12px;
+                line-height: 20px;
+                word-wrap: break-word;
+            }
+            .f-btn, .f2-btn{
+               padding: 10px 20px;
+            }
+            .btn4{
+                text-align: center;
+            }
+            .fi-form{
+                width: 90%;
+                left: 5%;
+            }
+            .fi-input, .fi-input2{
+                width: 100%;
+            }
+            .fi-input2{
+                margin-right: 0;
+            }
+            .fourth-title{
+                font-size: 40px;
+            }
+            .si-name{
+                font-size: 18px;
+            }
+            .si-icon{
+                width: 30px;
+                height: 30px;
+            }
+            .se1, .se2{
+                margin-top: 10px;
+            }
+    .image-paragraph, .image-paragraph1 {
+        font-size: 16px;
+    }
+    .fourth-card, .seven-section .col-md-6, .seven-section .col-md-3, .se1, .se2 {
+        width: 100%;
+    }
+    .explore {
+        height: auto;
+        padding: 20px;
+    }
+    .seven-title {
+        font-size: 36px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .col-md-3 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-content{
+        font-size: 12px;
+    }
+    .image-first-text {
+        font-size: 36px;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .content-section, .content p{
+        font-size: 12px;
+    }
+    .content .content3{
+        font-size: 14px;
+    }
+    .content-section i{
+        font-size: 20px;
+    }
+    .first-section-image .image-content{
+        top: 30%;
+        right: 13%;
+    }
+    .col-md-6 .third-img{
+        margin-left: 20%;
+    }
+    .image-paragraph, .image-paragraph1 {
+        font-size: 14px;
+    }
+    .third-section {
+        height: auto;
+    }
+    .third-img {
+        width: 100%;
+        height: auto;
+    }
+    .third-heading {
+        font-size: 36px;
+    }
+    .third-first-par, .third-second-par {
+        font-size: 16px;
+    }
+    .fourth-title {
+        font-size: 36px;
+    }
+    .fi-form {
+        height: auto;
+        padding-bottom: 20px;
+        margin-top: -80px;
+    }
+    .fi-input, .fi-input2 {
+        width: 100%;
+    }
+    .first, .second {
+        flex-direction: column;
+    }
+    .seven-second-img {
+        height: 300px;
+    }
+    .question {
+        height: auto;
+        padding: 20px;
+    }
+    .q-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .q-btn {
+        margin-top: 10px;
+    }
+    .footer .col-md-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-first-text, .third-heading, .fourth-title, .seven-title {
+        font-size: 24px;
+    }
+    .image-paragraph, .image-paragraph1, .third-first-par, .third-second-par {
+        font-size: 12px;
+    }
+    .se1, .se2, .seven-second-img {
+        height: 200px;
+    }
+    .top-content, .content p, .content .content3 {
+       font-size: 12px;
+    }
+    .second-heading{
+        font-size: 16px;
+    }
+    .first-section-image .image-content{
+        top: 37%;
+        right: 10%;
+    }
+    .third-section .third-content{
+       font-size: 16px;
+       padding: 0px 40px;
+    }
+    .col-md-6 .third-img{
+       width: 72%;
+       height: 500px;
+       margin-right: 80px;
+    }
+    .footer{
+        padding: 20px 20px;
+    }
+}
+
